@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/voalle/Downloads/Csharp-API-master/MP.ApiDotNet6.Domain/MP.ApiDotNet6.Domain.csproj": {}
+  },
+  "projects": {
+    "/home/voalle/Downloads/Csharp-API-master/MP.ApiDotNet6.Domain/MP.ApiDotNet6.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/voalle/Downloads/Csharp-API-master/MP.ApiDotNet6.Domain/MP.ApiDotNet6.Domain.csproj",
+        "projectName": "MP.ApiDotNet6.Domain",
+        "projectPath": "/home/voalle/Downloads/Csharp-API-master/MP.ApiDotNet6.Domain/MP.ApiDotNet6.Domain.csproj",
+        "packagesPath": "/home/voalle/.nuget/packages/",
+        "outputPath": "/home/voalle/Downloads/Csharp-API-master/MP.ApiDotNet6.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/voalle/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net60"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net60": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net60": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v6.0": {
+      "AutoMapper/12.0.0": {
+        "type": "package"
+      },
+      "FluentValidation/11.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {}
+        }
+      },
+      "MP.ApiDotNet6.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MP.ApiDotNet6.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MP.ApiDotNet6.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoMapper/12.0.0": {
+      "sha512": "0Rmg0zI5AFu1O/y//o9VGyhxKjhggWpk9mOA1tp0DEVx40c61bs+lnQv+0jUq8XbniF7FKgIVvI1perqiMtLrA==",
+      "type": "package",
+      "path": "automapper/12.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.12.0.0.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/AutoMapper.dll",
+        "lib/netstandard2.1/AutoMapper.xml"
+      ]
+    },
+    "FluentValidation/11.2.2": {
+      "sha512": "5QEte2BUZZF6Sezeekr7Zu1THfgpxU7pmuL2SjIrajuGMah+pxPGiRiLtw+x/tSUSSVmcv9LrUe41lKu4l0n4A==",
+      "type": "package",
+      "path": "fluentvalidation/11.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.2.2.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "MP.ApiDotNet6.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MP.ApiDotNet6.Domain/MP.ApiDotNet6.Domain.csproj",
+      "msbuildProject": "../MP.ApiDotNet6.Domain/MP.ApiDotNet6.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v6.0": [
+      "AutoMapper >= 12.0.0",
+      "FluentValidation >= 11.2.2",
+      "MP.ApiDotNet6.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/voalle/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/voalle/Downloads/Csharp-API-master/MP.ApiDotNet6.Application/MP.ApiDotNet6.Application.csproj",
+      "projectName": "MP.ApiDotNet6.Application",
+      "projectPath": "/home/voalle/Downloads/Csharp-API-master/MP.ApiDotNet6.Application/MP.ApiDotNet6.Application.csproj",
+      "packagesPath": "/home/voalle/.nuget/packages/",
+      "outputPath": "/home/voalle/Downloads/Csharp-API-master/MP.ApiDotNet6.Application/obj/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/home/voalle/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net60"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net60": {
+          "projectReferences": {
+            "/home/voalle/Downloads/Csharp-API-master/MP.ApiDotNet6.Domain/MP.ApiDotNet6.Domain.csproj": {
+              "projectPath": "/home/voalle/Downloads/Csharp-API-master/MP.ApiDotNet6.Domain/MP.ApiDotNet6.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net60": {
+        "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[12.0.0, )"
+          },
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.2.2, )"
+          }
+        }
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "O pacote AutoMapper 12.0.0 não é compatível com net60 (.NETFramework,Version=v6.0). O pacote AutoMapper 12.0.0 dá suporte a: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        ".NETFramework,Version=v6.0"
+      ]
+    }
+  ]
+}
